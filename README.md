@@ -14,7 +14,8 @@ Platformsパッケージを利用したビルドでは、ビルドの過程の�
 ## おまけ
 
 従来のビルド方法で 同じようなことをする場合、ビルド前にStreamingAssets以下にデータを配置し、ビルド後に戻すという形になります。<br />
-[MyStreamingAssets.cs](Documentation~/MyStreamingAssets.cs)
+このような形になります。[MyStreamingAssets.cs](Documentation~/MyStreamingAssets.cs)<br/>
+#if falseを外してください。
 
 Adrressableでは、ビルド前にファイルをコピーしてきて、ビルド後にファイル削除をしています。<br />
 このサンプルでは速度重視でFile.Moveにしています。
