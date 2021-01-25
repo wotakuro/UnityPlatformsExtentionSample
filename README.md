@@ -1,0 +1,2 @@
+# UnityPlatformsExtentionSample
+Unity Platforms Extensionサンプル
