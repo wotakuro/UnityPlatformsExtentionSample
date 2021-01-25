@@ -11,6 +11,12 @@ Platformsパッケージを利用したビルドでは、ビルドの過程の�
 ご利用は計画的に
 
 
+## PlatformsのビルドのCI化
+BuildConfigAssetを読んでBuildするだけです。
+[CUIBuildPipeline.cs](Editor/Platform/CUIBuildPipeline.cs)<br/>
+ 
+
+
 ## おまけ
 
 従来のビルド方法で 同じようなことをする場合、ビルド前にStreamingAssets以下にデータを配置し、ビルド後に戻すという形になります。<br />
