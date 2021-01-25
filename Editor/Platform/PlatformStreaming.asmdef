@@ -1,0 +1,18 @@
+{
+    "name": "PlatformStreaming",
+    "references": [
+        "GUID:3348cdac4e8a3c94baf775a68592a2a0",
+        "GUID:363a3288c06c1c14cbbeedbda31215f9"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
